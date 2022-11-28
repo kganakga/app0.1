@@ -1,3 +1,6 @@
+npm install antd @ant-design/icons react-redux @reduxjs/toolkit axios chart.js html-react-parser millify moment react-router-dom
+
+
 # Project Lyrics
 
 Develop an elegant React.js Music Application. 
