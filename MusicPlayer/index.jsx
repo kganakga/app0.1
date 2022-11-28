@@ -16,8 +16,7 @@ const MusicPlayer = () => {
   const [volume, setVolume] = useState(0.3);
   const [repeat, setRepeat] = useState(false);
   const [shuffle, setShuffle] = useState(false);
-  const dispatch = useDispatch();
-
+ 
   useEffect(() => {
     if (currentSongs.length) dispatch(playPause(true));
   }, [currentIndex]);
